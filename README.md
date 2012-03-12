@@ -26,7 +26,7 @@ gem "elapse"
 Usage
 -----
 
-The most common use is the "stacked" (or "unnamed") mode. In stacked mode you invoke `Elapse.start` and `Elapse.took` without arguments:
+The most common use case is the "stacked" (or "unnamed") mode. In stacked mode you invoke `Elapse.start` and `Elapse.took` without arguments:
 
 ~~~
 puts "Fetching page (url:'#{url}')"; Elapse.start
